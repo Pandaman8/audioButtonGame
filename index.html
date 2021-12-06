@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="code.js"></script>
+<style>
+.button {
+  background-color: #f44336; /* Green */
+  border: none;
+  color: white;
+  padding: 9vw 5vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8vw;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 600px;
+}
+
+</style>
+</head>
+<body>
+    <div style="float: left; width: 100%;">
+        <p id="#display" style="margin-left: 35vw; margin-right: 20px; font-size: 50px; float: left;">Number of Clicks: </p>
+        <p id="#count"style="font-size: 50px; float: left"> 0</p>
+    </div>
+    <div style="float: left; margin-left: 40vw;">
+        <label for="username" style="float: left;">Username: </label>
+        <input id="#username" type="text" name="username" style="float: left;">
+    </div>
+<audio id="#audio" src="beep.mp3">audio is fucked</audio>
+<button class="button" id="#btn" style="position: absolute; top: 30vh; left: 35vw;" onclick="incrementButton()" >Push</button>
+
+</body>
+</html>
